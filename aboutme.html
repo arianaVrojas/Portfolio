@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<title>Ariana Rojas</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 20px}
+</style>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  
+  <div class="w3-bar-block w3-center">
+    <a href="aboutme.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About Me</a>
+    <a href="paintings.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Paintings</a>
+    <a href="drawings.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Drawings</a>
+    <a href="contactme.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+  </div>
+
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <img src="header.png">
+  <h1><b>Ariana Rojas</b></h1>
+  <p><b>About Me</b></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-center" id="myGrid" style="margin-bottom:128px">
+<p>Ariana came from a struggling background. Her parents immigrated to the United States with the sole intent of giving their children the best future that they were never offered. Ariana's parents settled down in Oakland California and that's where Ariana spent her whole growing up. The aspiring Ariana attended Manzanita seed for her elementary school since it was down from her house. It was during this time that she discovered what drawing was. She started off doing little doodles of video game characters, then she began to discover herself. Turning her doodles into sketches led her to realize her own style of art. Continuing her education at Edna Brewer Middle School led her to start drafting more human-like postures and figures. However, the big turning point of her art career occurred when she attended Oakland Highschool in 2012.  Ariana started to expand her art from paper and pencil to digital arts and graphic arts. Among her growing interest in these other forms of art, she began to catch an interest in pop art as well. Despite this revelation of new forms of art, when Ariana began attending Laney College in 2016 she began to go back to her roots of painting and drafting. Spending the majority of her time in college attending painting classes gave her a clearer understanding of what she wanted. Ariana wanted to pursue pictorial art. As of late, she has been doing outdoors painting, but in silhouettes and creating the skies as galaxies. As she creates her art, she always adds a little representation of herself in her work. Every single one of her artworks tells a story about her, but it is something very obtuse and vague. This way of representing her story makes the artwork have a sensation of surrealism. Her method of telling these messages is very roundabout and anyone who views her artwork leaves with a sense of wonder about herself.</p>
+
+<div>
+  <h2><b>Artist Statement</b></h2>
+  <p>For many of my artworks, they consist of using easily controlled mediums. I prefer drawing with just a regular pencil and eraser and painting with acrylics, and digital drawing When I draw I would draw anything that comes into my mind, however, I never came upon giving them color. As I continued learning more about penmanship and new art techniques. I then began creating my artworks with a lot of symbolism that emphasizes my mental state while making it so it is not very obvious. Many of my artworks began to be an output for my emotions. Consisted of a lot of self-portraits of myself o many genres to pop art, cartoon, and anime. 
+
+My inspiration always comes from my history and my strong connection to certain events that have happened in my life. With my internet with cartoons many of my artworks consisted of the bubbly and simple art style, comparable to pop art. Something I always wanna achieve in my artworks is being able to make artworks can give the viewer multiple thoughts of what it could mean. 
+</p>
+</div>
+
+  <!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+ <i class="fa fa-facebook-official w3-hover-opacity" href="https://www.facebook.com/arianaVrojas"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
